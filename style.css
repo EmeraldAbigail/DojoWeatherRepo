@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    min-height: 300px;
+}
+
+.nav {
+    background-color: #9fc5f8;
+    color: white;
+    padding: 10px;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+ul.nav-links {
+    list-style: none;
+}
+
+.nav-links {
+    width: 50%;
+}
+
+.flex-container.main {
+    border-bottom: black solid;
+
+}
+
+.flex-container.head {
+    padding: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.weather-card {
+    background-color: #eeeeee;
+    color: black;
+    height: 300px;
+    width: 150px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+img {
+    width: 80%;
+    border-radius: 100%;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+.card {
+    max-width: 50%;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    position:fixed;
+}
+.btn{
+    background-color: #9fc5f8;
+    color: white;
+    border: 3px solid black;
+    padding: 0 20px;
+    font-size: smaller;
+    box-shadow: 3px 3px black;
+    margin-right: 10px;
+    }
